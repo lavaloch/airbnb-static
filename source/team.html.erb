@@ -2,15 +2,17 @@
 title: Team
 ---
 
-<% content_tag :h2, :class => "h2" do %>
+<% content_tag :h2, :class => "h2 text-center" do %>
   Our team
 <% end %>
-<ul class="list-inline text-center">
-  <% ["valentin", "alexandre", "benoit"].each do |member| %>
-    <li>
-      <%= image_tag "#{member}.png", class: "img-circle" %>
-      <h3><%= member.capitalize %></h3>
-    </li>
-  <% end %>
-</ul>
-<%= link_to "<i class="fa fa-envelope"></i> contact@airbnb.com", "mailto:contact@airbnb.com", class: "btn btn-primary" %>
+<div class="team-avatar">
+  <ul class="list-inline text-center">
+    <% ["valentin", "alexandre", "benoit"].each do |member| %>
+      <li>
+        <%= image_tag "#{member}.jpg", class: "avatar-big" %>
+        <h3><%= member.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
