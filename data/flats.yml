@@ -1,0 +1,78 @@
+gabriel:
+  owner_name: Gabriel
+  picture: card-paris.jpg
+  owner_picture: gabriel.jpg
+  name: Gabriel's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: Wifi
+  number_of_guest: 4
+  check_in: 12h
+  check_out: 10h
+  beds: 4
+  kitchen: Kitchen
+achille:
+  owner_name: Achille
+  picture: card-london.jpeg
+  owner_picture: achille.jpg
+  name: Achille's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: No wifi
+  number_of_guest: 3
+  check_in: 15h
+  check_out: 10h
+  beds: 2
+  kitchen: No kitchen
+alexandre:
+  owner_name: Alexandre
+  picture: paris.jpg
+  owner_picture: alexandre.jpg
+  name: Alexandre's home
+  summary: Huge flat in 9th district
+  city: Paris, France
+  wifi: Wifi
+  number_of_guest: 4
+  check_in: 12h
+  check_out: 10h
+  beds: 7
+  kitchen: Kitchen
+valentin:
+  owner_name: Valentin Selve
+  picture: paris3.png
+  owner_picture: valentin.jpg
+  name: Valentin's home
+  summary: Nice flat in Pigale
+  city: Paris, France
+  wifi: No wifi
+  number_of_guest: 3
+  check_in: 18h
+  check_out: 10h
+  beds: 1
+  kitchen: Kitchen
+benoit:
+  owner_name: Benoit
+  picture: paris2.jpg
+  owner_picture: benoit.jpg
+  name: Benoit's home
+  summary: Little flat in 18th district
+  city: Paris, France
+  wifi: Wifi
+  number_of_guest: 1
+  check_in: 12h
+  check_out: 19h
+  beds: 1
+  kitchen: Kitchen
+lucien:
+  owner_name: Lucien Bramard
+  picture: lecaire.jpg
+  owner_picture: lucien.jpg
+  name: Lucien's home
+  summary: House in Le Caire
+  city: Le Caire, Egypt
+  wifi: No wifi
+  number_of_guest: 2
+  check_in: 18h
+  check_out: 10h
+  beds: 2
+  kitchen: Kitchen

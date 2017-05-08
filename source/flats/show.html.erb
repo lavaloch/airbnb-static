@@ -1,0 +1,39 @@
+  <% flat = data.flats[owner] %>
+  <div class="banner-flat" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path flat.picture %>);">
+    <h2><%= flat.name %></h2>
+  </div>
+
+  <div class="flat-infos text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <p>Owner : <%= flat.owner_name %></p>
+          <p>City : <%= flat.city %></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <p>Check-in : <%= flat.check_in %></p>
+          <p>Check-out : <%= flat.check_out %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="equipment-infos text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p><%= flat.summary %></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="list-inline">
+            <li><%= flat.number_of_guests %> guests</li>
+            <li><%= flat.beds %> beds</li>
+            <li><%= flat.wifi %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
